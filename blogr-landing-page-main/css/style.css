@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+
+:root {
+    --Light-red: hsl(356, 100%, 66%);
+--Very-light-red: hsl(355, 100%, 74%);
+--Very-dark-blue: hsl(208, 49%, 24%);
+--White: hsl(0, 0%, 100%);
+--Grayish-blue: hsl(240, 2%, 79%);
+--Very-dark-grayish-blue: hsl(207, 13%, 34%);
+--Very-dark-black-blue: hsl(240, 10%, 16%);
+--Very-light-red: hsl(13, 100%, 72%);
+--Light-red: hsl(353, 100%, 62%);
+--Very-dark-gray-blue: hsl(237, 17%, 21%);
+--Very-dark-desaturated-blue: hsl(237, 23%, 32%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Overpass', sans-serif;    
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+.main-1 {
+    height: 85vh;
+    background:var(--Light-red);
+    overflow: hidden;
+    border-bottom-left-radius: 80px;
+}
+.burger {
+    display: none;
+}
+.container {
+    background-image: url(/images/bg-pattern-intro.svg);
+    background-repeat: no-repeat;
+    background-size: 210%;
+    padding: 20px 150px 80px 150px;
+    color: var(--White);
+    background-position: 25% 52%;
+    height: 85vh;
+}
+.container ul {
+    list-style: none;
+    padding: 0 20px;
+}
+.container .nav .items li {
+    display: inline;
+    font-weight: 600;
+}
+li a img {
+    margin-left: 10px;
+}
+.items {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+
+}
+.nav .b2 {
+    border: none;
+}
+.nav .b1 {
+    padding: 10px 30px;
+}
+.container .nav .items a {
+    text-decoration: none;
+    color:var(--White);
+    padding-left: 20px ;
+    opacity: 65%;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 120px;
+}
+.sub {
+    display: block;
+    opacity: 65%;
+    margin: 10px 0;
+}
+.container h1 {
+    font-weight: 400;
+    font-size: 60px;
+    letter-spacing: -3px;
+
+}
+
+.container h3 {
+    font-weight: 300;
+}
+.button {
+    margin: 40px 0;
+}
+.button a{
+    text-decoration: none;
+    color: var(--White);
+    margin: 0 5px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-family: 'Ubuntu';
+    
+}
+.button .b1 {
+    color: var(--Light-red);
+    font-weight: 600;
+
+}
+.b1 {
+    background:var(--White);
+    border: 1px solid var(--Light-red);
+}
+.b2 {
+    border: 1px solid var(--White);
+    opacity: 65%;
+}
+
+.main-2 {
+    background:#fafafa;
+    height: 120vh;
+}
+.container-1 {
+    padding: 100px 150px 80px 150px;
+    background-image: url(/images/illustration-editor-desktop.svg);
+    background-size: 60%;
+    background-position: 140%;
+    background-repeat: no-repeat;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Overpass';
+}
+.container-1 h1 {
+    font-size: 42px;
+    letter-spacing: -3px;
+    color: var(--Very-dark-blue);
+    text-align: center;
+}
+.mid {
+    font-weight: 600;
+}
+.sub-text {
+    display: block;
+    margin: 20px 0 40px 0;
+    font-weight: 400;
+    color: var(--Very-dark-blue);
+}
+.container-1 .para {
+    width: 500px;
+}
+.container-1 .mobile {
+    display: none;
+}
+.container-1 .para h2 {
+    font-weight: 600;
+    color:var(--Very-dark-blue);
+    letter-spacing: -1px;
+}
+.container-1 .p1 {
+    margin-top: 100px;
+}
+.container-1 .para p {
+    color: var(--Very-dark-blue);
+
+}
+
+.main-3 {
+    height: 60vh;
+    background: #3e4062;
+    border-bottom-left-radius: 80px;
+    border-top-right-radius: 80px;
+}
+.container-2 {
+    padding: 100px 150px 80px 150px;
+    height: 60vh;
+    background-image: url(/images/bg-pattern-circles.svg);
+    background-repeat: no-repeat;
+    background-position:-50% 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.container-2 .subtext {
+    display: block;
+    margin-top: 20px;
+    line-height: 2;
+}
+.container-2 .text h1 {
+    font-size: 36px;
+}
+.container-2 .text {
+    color:var(--White);
+}
+.phones {
+    position: relative;
+    bottom: 180px;
+    right: 45px;
+}
+
+.main-4 {
+    height: 100vh;
+}
+.container-3 {
+    padding: 100px 150px 80px 150px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+.container-3 .subtext {
+    display: block;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.laptop img {
+    max-width: 900px;
+}
+.laptop {
+    position: relative;
+    max-width: 550px;
+    right: 405px;
+
+}
+.laptop-mobile {
+    display: none;
+}
+.container-3 .text {
+    color: var(--Very-dark-grayish-blue);
+    margin-top: 200px;
+}
+
+.container-3 .subtext {
+    margin-bottom: 50px;
+}
+
+footer {
+    margin-top: 300px;
+    height: 50vh;
+}
+
+.container-4 {
+    padding: 50px 320px 0 150px;
+    height: 50vh;
+    background: var(--Very-dark-black-blue);
+    color:var(--White);
+    display: flex;
+    justify-content: space-between;
+}
+.container-4 .item-1,.item-2,.item-3 {
+    padding-top: 10px;
+}
+
+.container-4 ul {
+    list-style: none;
+}
+
+.container-4 a {
+    text-decoration: none;
+    color: var(--White);
+}
+.container-4 li {
+    padding-bottom: 10px;
+    opacity: 65%;
+}
+.container-4 ul > :first-child {
+    padding-top: 30px;
+}
+.attribution {
+    position:absolute;
+    text-align: center;
+    bottom:-2350px;
+    left:500px;
+}
+
+@media only screen and (max-width: 1000px){
+    .items ul {
+        display: none;
+    }
+    .nav .button {
+        display: none ;
+    }
+    .burger {
+        display: initial;
+    }
+    .container {
+        padding: 30px;
+        
+    }
+    .title {
+        margin-top: 80px;
+    }
+    .title h1 {
+        font-size: 35px;
+        font-weight: 700;
+        letter-spacing: initial;
+    }
+
+    .container-1 {
+        padding: 20px;
+        background-image: none;
+    }
+
+    .container-1 .para {
+        width: initial;
+        margin: 0;
+        text-align: center;
+        line-height: 1.5;
+    }
+    .container-1 .para h2 {
+        font-size: 29px;
+        padding: 0 50px;
+    }
+    .container-1 .mobile {
+        display: initial;
+    }
+    .mobile img {
+        width: 90vw;
+    }
+    .main-3 {
+        margin-top: 500px;
+        height: 100vh;
+    }
+    .container-2 {
+        padding: 20px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-position: 50% 125%;
+        justify-content: center;
+        text-align: center;
+    }
+    .phones {
+        width: 70vw;
+        bottom: 0;
+        left: 0px;
+    }
+    .phones img{
+        width: 70vw;
+
+    }
+    .container-2 .text {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .container-2 > div {
+        position: relative;
+        bottom: 150px;
+    }
+    .laptop {
+        display: none;
+    }
+    .main-4 {
+        height: 100vh;
+        margin-top: 100px;
+    }
+    .container-3 {
+        height: 100vh;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .container-3 .laptop-mobile {
+        width: 80vw;
+        position: relative;
+    }
+    .container-3 .text {
+        margin-top: 30px;
+        text-align: center;
+
+    }
+    .laptop-mobile {
+        display: initial;
+        right: 0;
+        width: 80vw;
+    }
+    .laptop-mobile img {
+        width: 80vw;
+    }
+    footer {
+        height: 130vh;
+        width: 100vw;
+        margin-top: 100px;
+        justify-content: initial;
+    }
+    .container-4 {
+        padding: 40px;
+        height: 130vh;
+        width: 100vw;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        border-top-right-radius: 80px;
+        text-align: center;
+    }
+    .container-4 .logo {
+        margin-top: 70px;
+    }
+
+
+}
+@media only screen and (max-width:500px) {
+    .container-2 > div {
+        bottom: 200px;
+    }
+    .phones img{
+        width: 80vw;
+        position: relative;
+        top:50px;  
+    }
+    .phones {
+        width: 80vw;
+    }
+    
+}
+
+@media only screen and (max-width: 375px) {
+    .container {
+        background-position: 40% 36%;
+        background-size: 350%;
+    }
+}
